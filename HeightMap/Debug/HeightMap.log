@@ -1,0 +1,9 @@
+﻿  HeightMap.cpp
+c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\heightmap.cpp(13): warning C4018: '<': signed/unsigned mismatch
+c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\heightmap.cpp(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\heightmap.cpp(27): warning C4018: '<': signed/unsigned mismatch
+c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\heightmap.cpp(28): warning C4018: '<': signed/unsigned mismatch
+c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\heightmap.cpp(55): warning C4018: '<': signed/unsigned mismatch
+c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\heightmap.cpp(62): warning C4018: '<': signed/unsigned mismatch
+  HeightMap.vcxproj -> C:\Users\Colt\Documents\University of Calgary\CPSC 585 Game\HeightMap\Debug\HeightMap.exe
+  HeightMap.vcxproj -> C:\Users\Colt\Documents\University of Calgary\CPSC 585 Game\HeightMap\Debug\HeightMap.pdb (Partial PDB)
