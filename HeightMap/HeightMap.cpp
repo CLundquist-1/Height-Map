@@ -16,7 +16,7 @@ HeightMap::HeightMap(Image& image, const int& height, const int& width, const in
 			vertices.push_back(x);
 			vertices.push_back((1 - (pixels[0] + pixels[1] + pixels[2]) / 3)*height);
 			vertices.push_back(z);
-			cout << (int)pixels << std::endl;
+			//cout << (int)pixels << std::endl;
 			pixels += image.Channels();//sizeof(float) * image.Channels();
 			x += width;
 		}
@@ -35,6 +35,8 @@ HeightMap::HeightMap(Image& image, const int& height, const int& width, const in
 		}
 		r += w;
 	}
+	//PrintVertices();
+	//PrintElements();
 }
 
 HeightMap::HeightMap(char* file, const int& height, const int& width, const int& length) : HeightMap(Image(file), height, width, length) { }

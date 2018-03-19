@@ -1,9 +1,22 @@
-﻿  HeightMap.cpp
+﻿  Main.cpp
+c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\packages\nupengl.core.0.1.0.1\build\native\include\glfw\glfw3.h(92): note: see previous definition of 'APIENTRY'
+c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\main.cpp(61): warning C4244: 'argument': conversion from 'const float' to 'const int', possible loss of data
+c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\main.cpp(110): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\main.cpp(111): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\main.cpp(115): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\main.cpp(116): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\main.cpp(117): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\main.cpp(118): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\main.cpp(256): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\main.cpp(262): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  HeightMap.cpp
 c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\heightmap.cpp(13): warning C4018: '<': signed/unsigned mismatch
 c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\heightmap.cpp(15): warning C4018: '<': signed/unsigned mismatch
 c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\heightmap.cpp(27): warning C4018: '<': signed/unsigned mismatch
 c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\heightmap.cpp(28): warning C4018: '<': signed/unsigned mismatch
-c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\heightmap.cpp(55): warning C4018: '<': signed/unsigned mismatch
-c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\heightmap.cpp(62): warning C4018: '<': signed/unsigned mismatch
+c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\heightmap.cpp(57): warning C4018: '<': signed/unsigned mismatch
+c:\users\colt\documents\university of calgary\cpsc 585 game\heightmap\heightmap\heightmap.cpp(64): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
   HeightMap.vcxproj -> C:\Users\Colt\Documents\University of Calgary\CPSC 585 Game\HeightMap\Debug\HeightMap.exe
   HeightMap.vcxproj -> C:\Users\Colt\Documents\University of Calgary\CPSC 585 Game\HeightMap\Debug\HeightMap.pdb (Partial PDB)

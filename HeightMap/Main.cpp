@@ -37,10 +37,10 @@ glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 25.0f);
 glm::vec3 cameraFront = glm::vec3(0.0f, 0.0f, -1.0f);
 glm::vec3 cameraUp = glm::vec3(0.0f, 1.0f, 0.0f);
 glm::mat4 view = glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
-glm::mat4 proj = glm::perspective(glm::radians(45.0f), (float)scr_width / (float)scr_height, 0.1f, 100.0f);
+glm::mat4 proj = glm::perspective(glm::radians(45.0f), (float)scr_width / (float)scr_height, 0.1f, 500.0f);
 glm::mat4 model = glm::mat4(1.0f);
 
-const char* file = "two.png";
+const char* file = "arena.png";
 const char *vertexShaderSource = "vertexShader.vs";
 const char *fragmentShaderSource = "fragmentShader.fs";
 
@@ -56,15 +56,15 @@ unsigned int vao;
 /////////////////////////////////////////Lets put all the drawing initialization in one place////////////////////////////////////
 Shader initDrawing() {
 	Image image = Image(file);
-	image.PrintPixels();
+	//image.PrintPixels();
 
 	HeightMap hm = HeightMap(image, heightStep, widthStep, lengthStep);
 
 	heightMapElements = hm.Elements().size();
 
-	hm.PrintVertices();
+	//hm.PrintVertices();
 
-	hm.PrintElements();
+	//hm.PrintElements();
 
 
 	//TODO: Generate veretx arrays and load them with data

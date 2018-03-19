@@ -1,0 +1,14 @@
+﻿  HeightMap.cpp
+HeightMap.cpp(13): warning C4018: '<': signed/unsigned mismatch
+HeightMap.cpp(15): warning C4018: '<': signed/unsigned mismatch
+HeightMap.cpp(27): warning C4018: '<': signed/unsigned mismatch
+HeightMap.cpp(28): warning C4018: '<': signed/unsigned mismatch
+HeightMap.cpp(57): warning C4018: '<': signed/unsigned mismatch
+HeightMap.cpp(64): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  5 of 559 functions ( 0.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    19 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  HeightMap.vcxproj -> C:\Users\Colt\Documents\University of Calgary\CPSC 585 Game\HeightMap\Release\HeightMap.exe
+  HeightMap.vcxproj -> C:\Users\Colt\Documents\University of Calgary\CPSC 585 Game\HeightMap\Release\HeightMap.pdb (Full PDB)
